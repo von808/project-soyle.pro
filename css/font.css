@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+    url('../fonts/Rubik-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+    url('../fonts/Rubik-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Bold.woff2') format('woff2'),
+    url('../fonts/Rubik-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Effra';
+  src: url('../fonts/Effra-Regular.woff2') format('woff2'),
+    url('../fonts/Effra-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Effra';
+  src: url('../fonts/Effra-Medium.woff2') format('woff2'),
+    url('../fonts/Effra-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Effra';
+  src: url('../fonts/Effra-Bold.woff2') format('woff2'),
+    url('../fonts/Effra-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Effra';
+  src: url('../fonts/Effra-Heavy.woff2') format('woff2'),
+    url('../fonts/Effra-Heavy.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}

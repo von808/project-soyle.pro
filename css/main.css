@@ -1,0 +1,158 @@
+.modal_form .modal_in .form-error {
+  color: #ff0000;
+  font-size: 10pt;
+  padding-bottom: 10px;
+}
+
+.cabinet_content .form-error {
+  color: #ff0000;
+  font-size: 10pt;
+  padding-bottom: 10px;
+}
+
+.cabinet_content table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #E4E8EF;
+  border-radius: 4px;
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+
+.cabinet_content th,
+td {
+  border: 1px solid #E4E8EF;
+  padding: 10px 20px;
+}
+
+.ptest_kind_6 .ptest_row_text .ptest_row_item_text.active.select {
+  border-color: #FF9D17
+}
+
+.ptest_drag_word_check {
+  height: unset;
+  min-height: 66px;
+}
+
+.pdwi_s {
+  height: unset;
+  min-height: 62px;
+}
+
+.ptest_drag_word_item {
+  height: unset;
+  min-height: 62px;
+}
+
+element.style {}
+
+.ptest_drag_word_title_img .ptest_sound {
+  margin: 0 20px 0 0;
+}
+
+.ptest_sound {
+  min-width: 60px;
+}
+
+.ptest_drag_word_title_img {
+  justify-content: center;
+}
+
+.ptest_step_2 .ptest_row_item {
+  align-items: center;
+}
+
+.word_hint_text {
+  transform: translate(-50%, 0%);
+  left: 50%;
+  width: max-content;
+  max-width: 300px;
+}
+
+.cab_home_steps_3:before,
+.cab_home_steps_3:after,
+.cab_home_steps_4:before,
+.cab_home_steps_4:after,
+.cab_home_steps_5:before,
+.cab_home_steps_5:after,
+.cab_home_steps_6:before,
+.cab_home_steps_6:after,
+.cab_home_steps_7:before,
+.cab_home_steps_7:after,
+.cab_home_steps_8:before,
+.cab_home_steps_8:after,
+.cab_home_steps_9:before,
+.cab_home_steps_9:after,
+.cab_home_steps_10:before,
+.cab_home_steps_10:after,
+.cab_home_steps_11:before,
+.cab_home_steps_11:after,
+.cab_home_steps_12:before,
+.cab_home_steps_12:after,
+.cab_home_steps_13:before,
+.cab_home_steps_13:after,
+.cab_home_steps_14:before,
+.cab_home_steps_14:after,
+.cab_home_steps_15:before,
+.cab_home_steps_15:after,
+.cab_home_steps_16:before,
+.cab_home_steps_16:after,
+.cab_home_steps_17:before,
+.cab_home_steps_17:after,
+.cab_home_steps_18:before,
+.cab_home_steps_18:after,
+.cab_home_steps_19:before,
+.cab_home_steps_19:after,
+.cab_home_steps_20:before,
+.cab_home_steps_20:after {
+  position: absolute;
+  content: '';
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ptest_last_img img {
+  width: 200px;
+}
+
+.current-step {
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: current-step-animation;
+  animation-timing-function: ease;
+  display: inline-flex;
+  z-index: 1;
+  position: inherit;
+}
+
+@keyframes current-step-animation {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+
+  10% {
+    transform: scale(1.1, .9) translateY(0);
+  }
+
+  30% {
+    transform: scale(.9, 1.1) translateY(-50px);
+  }
+
+  50% {
+    transform: scale(1.05, .95) translateY(0);
+  }
+
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}

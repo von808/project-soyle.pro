@@ -1,0 +1,316 @@
+Uri: https://soyle.pro/css/chartist.min.css
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\css\chartist.min.css
+Content Type: text/css
+
+Uri: https://soyle.pro/css/font.css
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\css\font.css
+Content Type: text/css
+
+Uri: https://soyle.pro/css/jquery-ui.min.css
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\css\jquery-ui.min.css
+Content Type: text/css
+
+Uri: https://soyle.pro/css/jquery.fancybox.min.css
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\css\jquery.fancybox.min.css
+Content Type: text/css
+
+Uri: https://soyle.pro/css/main.css?v=1707064769
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\css\main.css
+Content Type: text/css
+
+Uri: https://soyle.pro/css/select2.min.css
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\css\select2.min.css
+Content Type: text/css
+
+Uri: https://soyle.pro/img/f_soc/soc_1.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\f_soc\soc_1.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/f_soc/soc_1h.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\f_soc\soc_1h.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/f_soc/soc_2.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\f_soc\soc_2.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/f_soc/soc_2h.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\f_soc\soc_2h.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/f_soc/soc_3.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\f_soc\soc_3.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/f_soc/soc_3h.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\f_soc\soc_3h.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/f_soc/soc_4.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\f_soc\soc_4.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/f_soc/soc_4h.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\f_soc\soc_4h.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/f_soc/soc_5.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\f_soc\soc_5.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/f_soc/soc_5h.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\f_soc\soc_5h.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/f_soc/soc_6.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\f_soc\soc_6.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/f_soc/soc_6h.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\f_soc\soc_6h.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/logo.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\logo.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/main/main_go.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\main\main_go.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/main/main_how.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\main\main_how.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/main/main_how_ico_1.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\main\main_how_ico_1.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/main/main_how_ico_2.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\main\main_how_ico_2.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/main/main_how_ico_3.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\main\main_how_ico_3.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/main/main_how_ico_4.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\main\main_how_ico_4.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/main/main_lider.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\main\main_lider.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/modal/modal_close.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\modal\modal_close.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/modal/modal_facebook.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\modal\modal_facebook.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/modal/modal_google.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\modal\modal_google.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/new/delete.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\new\delete.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/new/success.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\new\success.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/ok.png
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\ok.png
+Content Type: image/png
+
+Uri: https://soyle.pro/img/ok1.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\ok1.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/page/page_img_1.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\page\page_img_1.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/page/page_img_2.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\page\page_img_2.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/test/close.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\test\close.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/test/sunduk.gif
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\test\sunduk.gif
+Content Type: image/gif
+
+Uri: https://soyle.pro/img/trg.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\trg.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/trg1.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\trg1.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/why/img_1.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\why\img_1.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/img/why/img_2.svg
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\img\why\img_2.svg
+Content Type: image/svg+xml
+
+Uri: https://soyle.pro/js/chartist-plugin-pointlabels.min.js
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\js\chartist-plugin-pointlabels.min.js
+Content Type: application/javascript
+
+Uri: https://soyle.pro/js/chartist.min.js
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\js\chartist.min.js
+Content Type: application/javascript
+
+Uri: https://soyle.pro/js/jquery-ui.min.js
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\js\jquery-ui.min.js
+Content Type: application/javascript
+
+Uri: https://soyle.pro/js/jquery.cookie.js
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\js\jquery.cookie.js
+Content Type: application/javascript
+
+Uri: https://soyle.pro/js/jquery.fancybox.min.js
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\js\jquery.fancybox.min.js
+Content Type: application/javascript
+
+Uri: https://soyle.pro/js/jquery.min.js
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://soyle.pro/js/jquery.ui.touch-punch.min.js
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\js\jquery.ui.touch-punch.min.js
+Content Type: application/javascript
+
+Uri: https://soyle.pro/js/main.js?v=1707064887
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\js\main.js
+Content Type: application/javascript
+
+Uri: https://soyle.pro/js/script.js
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\js\script.js
+Content Type: application/javascript
+
+Uri: https://soyle.pro/js/script_new.js
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\js\script_new.js
+Content Type: application/javascript
+
+Uri: https://soyle.pro/js/select2.min.js
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\js\select2.min.js
+Content Type: application/javascript
+
+Uri: https://soyle.pro/js/test.js?v=1707158479
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\js\test.js
+Content Type: application/javascript
+
+Uri: https://soyle.pro/ru
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\ru.html
+Content Type: text/html
+
+Uri: https://soyle.pro/ru/about
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\ru\about.html
+Content Type: text/html
+
+Uri: https://soyle.pro/ru/choose
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\ru\choose.html
+Content Type: text/html
+
+Uri: https://soyle.pro/ru/faq
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\ru\faq.html
+Content Type: text/html
+
+Uri: https://soyle.pro/ru/feedback
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\ru\feedback.html
+Content Type: text/html
+
+Uri: https://soyle.pro/ru/lesson/test
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\ru\lesson\test.html
+Content Type: text/html
+
+Uri: https://soyle.pro/ru/lesson/test/2
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\ru\lesson\test\2.html
+Content Type: text/html
+
+Uri: https://soyle.pro/ru/privacy
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\ru\privacy.html
+Content Type: text/html
+
+Uri: https://soyle.pro/storage/lesson_step_task/audios/0746d0db68d87dc387f3cf1b49e3e542.mp3
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_task\audios\0746d0db68d87dc387f3cf1b49e3e542.mp3
+Content Type: audio/mpeg
+
+Uri: https://soyle.pro/storage/lesson_step_task/audios/2d19597042b5f97c92d819007faa0528.mp3
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_task\audios\2d19597042b5f97c92d819007faa0528.mp3
+Content Type: audio/mpeg
+
+Uri: https://soyle.pro/storage/lesson_step_task/audios/88745de83c324aefb0bf7676b0311199.mp3
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_task\audios\88745de83c324aefb0bf7676b0311199.mp3
+Content Type: audio/mpeg
+
+Uri: https://soyle.pro/storage/lesson_step_task/audios/badb60216d07f4d9cdaf58653a3de832.mp3
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_task\audios\badb60216d07f4d9cdaf58653a3de832.mp3
+Content Type: audio/mpeg
+
+Uri: https://soyle.pro/storage/lesson_step_task/audios/ccde77511fe07b10e0b8a15dfa7cef66.mp3
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_task\audios\ccde77511fe07b10e0b8a15dfa7cef66.mp3
+Content Type: audio/mpeg
+
+Uri: https://soyle.pro/storage/lesson_step_task/audios/f31a4faa746031401c76b8a5036dcd14.mp3
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_task\audios\f31a4faa746031401c76b8a5036dcd14.mp3
+Content Type: audio/mpeg
+
+Uri: https://soyle.pro/storage/lesson_step_task/audios/fc6f3ae357d39adf13b7257ca6e83b52.mp3
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_task\audios\fc6f3ae357d39adf13b7257ca6e83b52.mp3
+Content Type: audio/mpeg
+
+Uri: https://soyle.pro/storage/lesson_step_task/audios/fc8009f1b4b229c41b52147efc0b71a3.mp3
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_task\audios\fc8009f1b4b229c41b52147efc0b71a3.mp3
+Content Type: audio/mpeg
+
+Uri: https://soyle.pro/storage/lesson_step_tasks/164f40a03c43d7cfae9a3034d19347b7.gif
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_tasks\164f40a03c43d7cfae9a3034d19347b7.gif
+Content Type: image/gif
+
+Uri: https://soyle.pro/storage/lesson_step_tasks/1f690bf2c2968e3bbb1de41975be5b29.gif
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_tasks\1f690bf2c2968e3bbb1de41975be5b29.gif
+Content Type: image/gif
+
+Uri: https://soyle.pro/storage/lesson_step_tasks/638496c0855068b4e93dffc890070834.gif
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_tasks\638496c0855068b4e93dffc890070834.gif
+Content Type: image/gif
+
+Uri: https://soyle.pro/storage/lesson_step_tasks/8413711f73566ec19e7435746b76dee0.gif
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_tasks\8413711f73566ec19e7435746b76dee0.gif
+Content Type: image/gif
+
+Uri: https://soyle.pro/storage/lesson_step_tasks/97f9497ae922b8c06e6abddac48c9f14.gif
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_tasks\97f9497ae922b8c06e6abddac48c9f14.gif
+Content Type: image/gif
+
+Uri: https://soyle.pro/storage/lesson_step_tasks/9efd10a2a3ecfc88b01d0761a296473e.gif
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_tasks\9efd10a2a3ecfc88b01d0761a296473e.gif
+Content Type: image/gif
+
+Uri: https://soyle.pro/storage/lesson_step_tasks/a9d084936a78ab74237e79f2b4a879ed.gif
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_tasks\a9d084936a78ab74237e79f2b4a879ed.gif
+Content Type: image/gif
+
+Uri: https://soyle.pro/storage/lesson_step_tasks/bae311eb271f9468ff81e26c5d9e7744.gif
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\storage\lesson_step_tasks\bae311eb271f9468ff81e26c5d9e7744.gif
+Content Type: image/gif
+
+Uri: https://soyle.pro/style-new.css
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\style-new.css
+Content Type: text/css
+
+Uri: https://soyle.pro/style.css
+File Name: C:\Users\lonel\OneDrive\Рабочий стол\soyle.pro\style.css
+Content Type: text/css
+
