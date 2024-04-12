@@ -102,8 +102,8 @@ jQuery(document).ready(function () {
         $('.ptest_step_last .ptest_last_txt.lesson').hide();
         $('.ptest_step_last .ptest_last_txt.test').show();
       } else {
-        $('.ptest_step_last .ptest_last_title.target').hide();
-        $('.ptest_step_last .ptest_last_title.lesson').show();
+        $('.ptest_step_last .ptest_last_title.target').show();
+        $('.ptest_step_last .ptest_last_title.lesson').hide();
         $('.ptest_step_last .ptest_last_title.test').hide();
         $('.ptest_step_last .ptest_last_txt.lesson').show();
         $('.ptest_step_last .ptest_last_txt.test').hide();
@@ -599,3 +599,17 @@ function stopPlay() {
   $("body").find("#html5audio")[0].pause();
   return true;
 }
+
+// NEW
+$('.ptest_step_bank').on('click', function () {
+
+  if ($(".ptest_step_bank").parent().hasClass('active')) {
+    $('.ptest_psteps').css("overflow", "hidden");
+    $('.ptest_step_bank').parent().removeClass('active');
+    return false;
+  } else {
+    $('.ptest_step_bank').parent().addClass('active');
+    $('.ptest_psteps').css("overflow", "visible");
+    return false;
+  }
+})
