@@ -29,26 +29,6 @@
           <img src="../img/kcell.svg" alt="kcell">
         </a>
       </div>
-      <div class="cab_header">
-        <div class="container">
-          <div class="cabh_right">
-            <a class="cabh_link" href="#!">
-              <img src="./img/phone.svg" alt="support">
-              поддержка
-            </a>
-            <div class="h_lang">
-              <select>
-                <option selected="" url="https://soyle.pro/ru/about">РУССКИЙ</option>
-                <option url="https://soyle.pro/kz/about">ҚАЗАҚ</option>
-              </select>
-            </div>
-            <a class="cabh_link" href="#!">
-              <img src="./img/user_login.svg" alt="login">
-              войти
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
   </header>
 
@@ -65,7 +45,7 @@
               Начнем путешествие
               в интересный путь изучения казахского языка!
             </h1>
-            <a href="ru/choose.html" class="btn btn--accent">НАЧНЕМ</a>
+            <a href="#!" class="btn btn--accent msb_login">НАЧНЕМ</a>
           </div>
         </div>
       </div>
@@ -232,68 +212,28 @@
       </div>
     </div>
   </footer>
-  <div class="modal_form" id="registr" url="https://soyle.pro/ru/user/reg">
-    <div class="modal_close"><img src="img/modal/modal_close.svg" alt=""></div>
-    <div class="modal_in">
-      <div class="modal_title">
-        <span>Создать аккаунт</span>
-        <a href="#" class="modal_login">Войти</a>
-      </div>
-      <input type="hidden" name="_token" value="w4r7QmjVTl9HuNm3jbRTsGpWdnnIlgXqD1Zcn776">
-      <div class="modal_field">
-        <label>Возраст</label>
-        <input type="text" name="age">
-        <div class="form-error age-error" style="display: none"></div>
-        <span class="modal_field_hint"></span>
-        <p class="modal_field_text" style="display: none;"><img src="img/trg.svg">Укажите свой возраст чтобы
-          оптимизировать работу</p>
-      </div>
-      <label>Имя</label>
-      <input type="text" name="name">
-      <div class="form-error name-error" style="display: none"></div>
-      <label>Email </label>
-      <input type="text" name="email">
-      <div class="form-error email-error" style="display: none"></div>
-      <label>Пароль</label>
-      <input type="password" name="password">
-      <div class="form-error password-error" style="display: none"></div>
-      <input type="submit" value="Создать аккаунт">
-      <div class="modal_soc">
-        <a href="https://soyle.pro/ru/user/auth/fb" class="modal_facebook"><img src="img/modal/modal_facebook.svg"
-            alt=""> Facebook</a>
-        <a href="https://soyle.pro/ru/user/auth/google" class="modal_google"><img src="img/modal/modal_google.svg"
-            alt=""> Google</a>
-      </div>
-      <div class="modal_polit">
-        <span>Выполняя вход вы соглашаетесь<br> с <a href="ru/privacy.html" target="_blank">Политикой
-            конфиденциальности</a></span>
-      </div>
-    </div>
-  </div>
   <div class="modal_form" id="login" url="https://soyle.pro/ru/user/login">
     <div class="modal_close"><img src="img/modal/modal_close.svg" alt=""></div>
     <div class="modal_in">
       <div class="modal_title">
         <span>Войти</span>
-        <a href="#" class="modal_registr">создать аккаунт</a>
+        <a href="#" class="subscribe modal_subscribe">ПОДПИСКА</a>
       </div>
-      <input type="hidden" name="_token" value="w4r7QmjVTl9HuNm3jbRTsGpWdnnIlgXqD1Zcn776"> <label>Email
-        пользователя</label>
-      <input type="text" name="email">
-      <div class="form-error email-error" style="display: none"></div>
+      <input type="hidden" name="_token" value="w4r7QmjVTl9HuNm3jbRTsGpWdnnIlgXqD1Zcn776"> <label>Номер телефона</label>
+      <input type="tel" name="tel">
+      <div class="form-error tel-error" style="display: none"></div>
       <label>Пароль</label>
       <input type="password" name="password">
       <div class="form-error password-error" style="display: none"></div>
-      <input type="submit" value="Вход">
+      <input class="btn btn--accent" type="submit" value="войти">
       <div class="modal_forgot">
         <a href="#">Забыли пароль?</a>
       </div>
-      <div class="modal_soc">
-        <a href="https://soyle.pro/ru/user/auth/fb" class="modal_facebook"><img src="img/modal/modal_facebook.svg"
-            alt=""> Facebook</a>
-        <a href="https://soyle.pro/ru/user/auth/google" class="modal_google"><img src="img/modal/modal_google.svg"
-            alt=""> Google</a>
+      <div class="modal_confidentiality">
+        Регистрируясь вы соглашаетесь<br>
+        с <a href="#!">Политикой конфиденциальности</a>
       </div>
+      <span class="support">Служба поддержки:<a href="#!">joylabkz@gmail.com</a></span>
     </div>
   </div>
   <div class="modal_form" id="forgot" url="https://soyle.pro/ru/user/remind-password"
@@ -301,14 +241,13 @@
     <div class="modal_close"><img src="img/modal/modal_close.svg" alt=""></div>
     <div class="modal_in">
       <div class="modal_title">
-        <span>Забыли пароль?</span>
-        <a href="#" class="modal_login">Отмена</a>
+        <span>Восстановить пароль</span>
       </div>
-      <input type="hidden" name="_token" value="w4r7QmjVTl9HuNm3jbRTsGpWdnnIlgXqD1Zcn776"> <label>Email
-        пользователя</label>
-      <input type="text" name="email">
-      <div class="form-error email-error" style="display: none"></div>
-      <input type="submit" value="Отправить">
+      <input type="hidden" name="_token" value="w4r7QmjVTl9HuNm3jbRTsGpWdnnIlgXqD1Zcn776"> <label>Номер телефона</label>
+      <input type="tel" name="tel">
+      <div class="form-error tel-error" style="display: none"></div>
+      <input class="btn btn--accent modal_pass-new" type="submit" value="Получить SMS код">
+      <span class="support">Служба поддержки:<a href="#!">joylabkz@gmail.com</a></span>
     </div>
   </div>
   <div class="modal_form modal_form_new" id="passinput" url="https://soyle.pro/ru/user/change-password">
@@ -320,13 +259,11 @@
       <input type="hidden" name="_token" value="w4r7QmjVTl9HuNm3jbRTsGpWdnnIlgXqD1Zcn776"> <input type="hidden"
         name="id">
       <input type="hidden" name="token">
-      <label>Пароль</label>
-      <input type="password" name="password">
+      <label>Введите код</label>
+      <input type="tel" name="tel" maxlength="4">
       <div class="form-error password-error" style="display: none"></div>
-      <label>Повторите пароль</label>
-      <input type="password" name="password-repeat">
-      <div class="form-error password-repeat-error" style="display: none"></div>
-      <input class="submit_passinput" type="submit" value="Изменить">
+      <input class="submit_passinput btn btn--accent" type="submit" value="Изменить">
+      <span class="support">Служба поддержки:<a href="#!">joylabkz@gmail.com</a></span>
     </div>
   </div>
   <div class="modal_form modal_form_new" id="success">
@@ -334,6 +271,26 @@
     <div class="modal_in success_modal_in">
       <img src="img/new/success.svg" alt="">
       <p>В течение нескольких минут вы получите письмо<br> с инструкциями по восстановлению пароля</p>
+    </div>
+  </div>
+  <div class="modal_form" id="subscribe" url="https://soyle.pro/ru/user/subscribe">
+    <div class="modal_close"><img src="img/modal/modal_close.svg" alt=""></div>
+    <div class="modal_in">
+      <div class="modal_title">
+        <span>Подписка</span>
+        <a href="#" class="subscribe modal_login">ВОЙТИ</a>
+      </div>
+      <div class="modal_subscribe-box">
+        <div>
+          Для подписки на сервис просим набрать USSD команду ХХХХ или подписаться через сайт или приложение АО Кcell/Active
+        </div>
+        <div>
+          Стоимость сервиса:<br>
+          50 тг в день<br>
+          990 тг в месяц<br>
+        </div>
+      </div>
+      <span class="support">Служба поддержки:<a href="#!">joylabkz@gmail.com</a></span>
     </div>
   </div>
   <div class="modal_bg"></div>

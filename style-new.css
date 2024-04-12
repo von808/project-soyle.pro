@@ -1014,15 +1014,9 @@
   color: #00ABFE;
 }
 
-.modal_form_new .modal_in input[type="submit"] {
-  background-color: #00ABFE;
-  border: 3px solid #00ABFE;
-}
+.modal_form_new .modal_in input[type="submit"] {}
 
-.modal_form_new .modal_in input[type="submit"]:hover {
-  background-color: unset;
-  color: #00ABFE;
-}
+.modal_form_new .modal_in input[type="submit"]:hover {}
 
 .modal_form_new .modal_polit a {
   color: #00ABFE;
@@ -1059,10 +1053,7 @@
   overflow: hidden;
 }
 
-.modal_form_new .modal_in input[type="submit"] {
-  width: 47%;
-  float: left;
-}
+.modal_form_new .modal_in input[type="submit"] {}
 
 .modal_form_new .modal_soc {
   display: flex;

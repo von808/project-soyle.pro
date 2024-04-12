@@ -24,6 +24,7 @@ jQuery(document).ready(function () {
       'age': form.find('input[name="age"]').val(),
       'name': form.find('input[name="name"]').val(),
       'email': form.find('input[name="email"]').val(),
+      'tel': form.find('input[name="tel"]').val(),
       'password': form.find('input[name="password"]').val(),
       '_token': form.find('input[name="_token"]').val(),
     }, function (data) {
@@ -45,6 +46,12 @@ jQuery(document).ready(function () {
           form.find('.email-error').show();
         } else {
           form.find('.email-error').hide();
+        }
+        if (data.errors.tel !== undefined) {
+          form.find('.tel-error').html(data.errors.tel);
+          form.find('.tel-error').show();
+        } else {
+          form.find('.tel-error').hide();
         }
         if (data.errors.password !== undefined) {
           form.find('.password-error').html(data.errors.password);
@@ -70,6 +77,7 @@ jQuery(document).ready(function () {
     let form = $('#login');
     $.post(form.attr('url'), {
       'email': form.find('input[name="email"]').val(),
+      'tel': form.find('input[name="tel"]').val(),
       'password': form.find('input[name="password"]').val(),
       '_token': form.find('input[name="_token"]').val(),
     }, function (data) {
@@ -79,6 +87,12 @@ jQuery(document).ready(function () {
           form.find('.email-error').show();
         } else {
           form.find('.email-error').hide();
+        }
+        if (data.errors.tel !== undefined) {
+          form.find('.tel-error').html(data.errors.tel);
+          form.find('.tel-error').show();
+        } else {
+          form.find('.tel-error').hide();
         }
         if (data.errors.password !== undefined) {
           form.find('.password-error').html(data.errors.password);
@@ -105,6 +119,7 @@ jQuery(document).ready(function () {
 
     const fd = new FormData();
     fd.append('email', form.find('input[name="email"]').val());
+    fd.append('tel', form.find('input[name="tel"]').val());
     fd.append('password', form.find('input[name="password"]').val());
     fd.append('name', form.find('input[name="name"]').val());
     fd.append('sounds', form.find('input[name="sounds"]').is(':checked'));
@@ -144,6 +159,12 @@ jQuery(document).ready(function () {
           } else {
             form.find('.email-error').hide();
           }
+          if (data.errors.tel !== undefined) {
+            form.find('.tel-error').html(data.errors.tel);
+            form.find('.tel-error').show();
+          } else {
+            form.find('.tel-error').hide();
+          }
           if (data.errors.password !== undefined) {
             form.find('.password-error').html(data.errors.password);
             form.find('.password-error').show();
@@ -177,6 +198,7 @@ jQuery(document).ready(function () {
     let form = $('#forgot');
     $.post(form.attr('url'), {
       'email': form.find('input[name="email"]').val(),
+      'tel': form.find('input[name="tel"]').val(),
       '_token': form.find('input[name="_token"]').val(),
     }, function (data) {
       if (data.errors !== undefined) {
@@ -185,6 +207,12 @@ jQuery(document).ready(function () {
           form.find('.email-error').show();
         } else {
           form.find('.email-error').hide();
+        }
+        if (data.errors.tel !== undefined) {
+          form.find('.tel-error').html(data.errors.tel);
+          form.find('.tel-error').show();
+        } else {
+          form.find('.tel-error').hide();
         }
       } else {
         $('#success').addClass('active');
