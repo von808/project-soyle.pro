@@ -3514,6 +3514,21 @@ footer:has(.footer_title) {
 }
 
 @media all and (max-width:767px) {
+
+  header {
+    min-height: auto;
+  }
+
+  header>.container {
+    padding: 20px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header .cab_header {
+    margin-left: auto;
+  }
+
   .footer_title {
     padding: 0 0 20px;
     flex-direction: column;
@@ -3868,11 +3883,13 @@ footer:has(.footer_title) {
     min-height: auto;
   }
 
+  header>.container {
+    padding: 0 15px;
+  }
+
   .h_logo a img {
     max-width: 130px;
   }
-
-  header .container {}
 
   .h_lang {}
 
@@ -3916,7 +3933,9 @@ footer:has(.footer_title) {
     font-size: 26px;
   }
 
-  .cabh_right {}
+  .cabh_right {
+    gap: 10px;
+  }
 
   .cabh_right>div {
     width: 50%;
@@ -4044,6 +4063,16 @@ footer:has(.footer_title) {
   .ptest_step_var4 .ptest_list,
   .ptest_step_var5 .ptest_list {
     padding: 15px 20px 16px 20px !important;
+  }
+
+  .tabs_items {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .tabs_link {
+    padding: 10px 15px;
+    width: 100%;
   }
 }
 
