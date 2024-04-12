@@ -922,28 +922,6 @@ footer:has(.footer_title) {
   fill: #fff;
 }
 
-/* .footer_soc a img {
-  position: absolute;
-  transition: opacity 0.5s ease, color 0.5s ease;
-}
-
-.footer_soc a img:first-child {
-  opacity: 1;
-}
-
-.footer_soc a img:last-child {
-  opacity: 0;
-}
-
-.footer_soc a:hover img:first-child {
-  opacity: 0;
-}
-
-.footer_soc a:hover img:last-child {
-  opacity: 1;
-} */
-
-
 /* ------ ------ modal_form ------ ------ */
 
 .modal_form {
@@ -1067,29 +1045,8 @@ footer:has(.footer_title) {
 }
 
 .modal_in input[type="submit"] {
-  /* font-weight: bold; */
-  /* font-size: 20px; */
-  /* color: #fff; */
-  /* box-shadow: unset !important; */
   margin: 24px 0 0;
-  /* background: #ff9d17; */
-  /* height: 56px; */
-  /* width: 100%; */
-  /* letter-spacing: 0.05em; */
-  /* text-transform: uppercase; */
-  /* border: 3px solid #ff9d17; */
-  /* box-shadow: 0px 5px 0px rgba(4, 26, 68, 0.5); */
-  /* border-radius: 4px; */
-  /* transition: background 0.5s ease, border-color 0.5s ease, color 0.5s ease; */
 }
-
-/*
-.modal_in input[type="submit"]:hover {
-  border-color: #ff9d17;
-  color: #ff9d17;
-  background: #fff;
-  text-decoration: none;
-} */
 
 .modal_soc {
   display: flex;
@@ -2712,30 +2669,6 @@ footer:has(.footer_title) {
   background-position: center;
 }
 
-/* .cab_home_steps_1:before {
-  background-image: url(img/cabinet/steps_1_img.svg);
-  width: 269px;
-  height: 257px;
-  top: 143px;
-  right: 120px;
-}
-
-.cab_home_steps_2:before {
-  background-image: url(img/cabinet/steps_2_img_1.svg);
-  width: 153px;
-  height: 181px;
-  top: 157px;
-  right: 187px;
-} */
-
-/*.cab_home_steps_2:after {
-	background-image:url(img/cabinet/steps_2_img_2.svg);
-	width:162px;
-	height:153px;
-	bottom:42px;
-	left:68px;
-}*/
-
 .to_top {
   display: flex;
   justify-content: flex-end;
@@ -3094,58 +3027,6 @@ footer:has(.footer_title) {
 .hint:hover:after {
   display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.cab_theory_n {
-  margin: 0 0 40px;
-}
-
-.cab_theory_item_l {
-  min-width: 100px;
-}
-
-.cab_theory_item_r p {
-  margin: 0;
-}
-
-.cab_theory_n2 .cab_theory_item {
-  background: #fff;
-  border: 2px solid #E4E8EF;
-}
-
-.cab_theory_n3 .cab_theory_item {
-  background: transparent;
-  padding: 0;
-}
-
-.cab_theory_n3 .cab_theory_item .cab_theory_item_l {
-  background: #E4E8EF;
-  border-radius: 4px;
-  margin: 0 10px 0 0;
-  min-width: 124px;
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-
-.cab_theory_n3 .cab_theory_item .cab_theory_item_r {
-  border: 2px solid #E4E8EF;
-  padding: 20px;
-  width: 100%;
-} 
-*/
 
 /* ------ ------ cabinet_theory_lvls ------ ------ */
 .cab_theory-lvls_items {
