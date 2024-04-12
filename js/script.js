@@ -24,7 +24,7 @@ jQuery(document).ready(function () {
   /*-------------------- modal --------------------*/
   $('.msb_login,.modal_login').on('click', function () {
     $('#login,.modal_bg').addClass('active')
-    $('#registr,#forgot').removeClass('active')
+    $('#registr,#forgot,#subscribe').removeClass('active')
   })
   $('.modal_registr,.way_item_reg').on('click', function () {
     $('#login').removeClass('active')
@@ -32,6 +32,14 @@ jQuery(document).ready(function () {
   })
   $('.modal_forgot a').on('click', function () {
     $('#forgot').addClass('active')
+    $('#login').removeClass('active')
+  })
+  $('.modal_pass-new').on('click', function () {
+    $('#passinput').addClass('active')
+    $('#forgot').removeClass('active')
+  })
+  $('.modal_subscribe').on('click', function () {
+    $('#subscribe').addClass('active')
     $('#login').removeClass('active')
   })
   $('.modal_close').on('click', function () {

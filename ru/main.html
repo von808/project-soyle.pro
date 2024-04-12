@@ -3,14 +3,15 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Soyle.pro</title>
-  <link rel="stylesheet" href="../css/select2.min.css">
-  <link rel="stylesheet" href="../css/chartist.min.css">
-  <link rel="stylesheet" href="../css/font.css">
-  <link rel="stylesheet" href="../style-new.css">
-  <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="../css/main.css?v=1707064769">
+  <link rel="stylesheet" href="./../css/select2.min.css">
+  <link rel="stylesheet" href="./../css/chartist.min.css">
+  <link rel="stylesheet" href="./../css/font.css">
+  <link rel="stylesheet" href="./../style-new.css">
+  <link rel="stylesheet" href="./../style.css">
+  <link rel="stylesheet" href="./../css/main.css">
 </head>
 
 <body>
@@ -52,7 +53,7 @@
   <div class="tabs">
     <div class="container">
       <div class="tabs_items">
-        <a href="#!" class="tabs_link">
+        <a href="#!" class="tabs_link active">
           <img src="../img/tabs/icon-main.svg" alt="main">
           <span>Главная</span>
         </a>
@@ -60,7 +61,7 @@
           <img src="../img/tabs/icon-theory.svg" alt="theory">
           <span>теория</span>
         </a>
-        <a href="#!" class="tabs_link active">
+        <a href="#!" class="tabs_link">
           <img src="../img/tabs/icon-rating.svg" alt="rating">
           <span>рейтинг</span>
         </a>
@@ -68,85 +69,219 @@
     </div>
   </div>
 
-  <main class="cabinet cabinet_rating">
+  <main class="cabinet cabinet_home">
     <div class="container">
       <div class="cabinet_row">
         <div class="cabinet_content">
-          <div class="cabinet_title">Рейтинг пользователей</div>
-          <div class="cab_rating_list">
-            <div class="cab_rating_item">
-              <img class="cab_rating_img" src="./../img/user.svg" alt="">
-              <span class="cab_rating_name">Username22</span>
-              <span class="cab_rating_place">1</span>
-              <div class="cabh_mon"><img src="./../img/trophy.png" alt="">23</div>
-              <div class="cabh_mon"><img src="./../img/medal.png" alt="">3</div>
+
+          <div class="cab_home_title " style="background-color:#8e2b7d">
+            <div class="cab_home_title_text">
+              <p>Начальный уровень</p>
+              <span>Урок 1: Сұрауға бола ма? / Можно спросить?</span>
             </div>
-            <div class="cab_rating_item">
-              <img class="cab_rating_img" src="./../img/user.svg" alt="">
-              <span class="cab_rating_name">Username22</span>
-              <span class="cab_rating_place">2</span>
-              <div class="cabh_mon"><img src="./../img/trophy.png" alt="">23</div>
-              <div class="cabh_mon"><img src="./../img/medal.png" alt="">3</div>
+            <a href="https://soyle.pro/ru/lesson/1/theory" class="cab_home_title_cat">
+              <img src="./../img/main/theory_icon.png" alt="theory">
+              теория
+            </a>
+          </div>
+
+          <style>
+            .cab_home_steps_1:before {
+              background-image: url(./../img/main/lesson_1-img.png);
+              width: 260px;
+              height: 306px;
+              background-size: contain;
+              top: 106px;
+              left: 50%;
+            }
+          </style>
+          <div class="cab_home_steps cab_home_steps_1">
+            <div class="cab_home_step chs_1 chs_complete " step-id="1">
+              <a href="https://soyle.pro/ru/lesson/test/1"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
             </div>
-            <div class="cab_rating_item">
-              <img class="cab_rating_img" src="./../img/user.svg" alt="">
-              <span class="cab_rating_name">Username22</span>
-              <span class="cab_rating_place">3</span>
-              <div class="cabh_mon"><img src="./../img/trophy.png" alt="">23</div>
-              <div class="cabh_mon"><img src="./../img/medal.png" alt="">3</div>
+            <div class="cab_home_step chs_2 chs_play chs_txt" step-id="2">
+              <a href="https://soyle.pro/ru/lesson/test/2"></a>
+              <div>
+                <p>Начать</p><span>0%</span>
+              </div>
             </div>
-            <div class="cab_rating_item">
-              <img class="cab_rating_img" src="./../img/user.svg" alt="">
-              <span class="cab_rating_name">Username22</span>
-              <span class="cab_rating_place">4</span>
-              <div class="cabh_mon"><img src="./../img/trophy.png" alt="">23</div>
-              <div class="cabh_mon"><img src="./../img/medal.png" alt="">3</div>
+            <div class="cab_home_step chs_3" step-id="5">
+              <a href="https://soyle.pro/ru/lesson/test/5"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
             </div>
-            <div class="cab_rating_item">
-              <img class="cab_rating_img" src="./../img/user.svg" alt="">
-              <span class="cab_rating_name">Username22</span>
-              <span class="cab_rating_place">5</span>
-              <div class="cabh_mon"><img src="./../img/trophy.png" alt="">23</div>
-              <div class="cabh_mon"><img src="./../img/medal.png" alt="">3</div>
+            <div class="cab_home_step chs_4" step-id="6">
+              <a href="https://soyle.pro/ru/lesson/test/6"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
             </div>
-            <div class="cab_rating_item">
-              <img class="cab_rating_img" src="./../img/user.svg" alt="">
-              <span class="cab_rating_name">Username22</span>
-              <span class="cab_rating_place">6</span>
-              <div class="cabh_mon"><img src="./../img/trophy.png" alt="">23</div>
-              <div class="cabh_mon"><img src="./../img/medal.png" alt="">3</div>
+            <div class="cab_home_step chs_5" step-id="7">
+              <a href="https://soyle.pro/ru/lesson/test/7"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
             </div>
-            <div class="cab_rating_item">
-              <img class="cab_rating_img" src="./../img/user.svg" alt="">
-              <span class="cab_rating_name">Username22</span>
-              <span class="cab_rating_place">7</span>
-              <div class="cabh_mon"><img src="./../img/trophy.png" alt="">23</div>
-              <div class="cabh_mon"><img src="./../img/medal.png" alt="">3</div>
+            <div class="cab_home_step chs_6 chs_star" step-id="8">
+              <a href="https://soyle.pro/ru/lesson/test/8"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
             </div>
-            <div class="cab_rating_item">
-              <img class="cab_rating_img" src="./../img/user.svg" alt="">
-              <span class="cab_rating_name">Username22</span>
-              <span class="cab_rating_place">8</span>
-              <div class="cabh_mon"><img src="./../img/trophy.png" alt="">23</div>
-              <div class="cabh_mon"><img src="./../img/medal.png" alt="">3</div>
+            <div class="cab_home_step chs_7 chs_star" step-id="9">
+              <a href="https://soyle.pro/ru/lesson/test/9"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
             </div>
-            <div class="cab_rating_item">
-              <img class="cab_rating_img" src="./../img/user.svg" alt="">
-              <span class="cab_rating_name">Username22</span>
-              <span class="cab_rating_place">9</span>
-              <div class="cabh_mon"><img src="./../img/trophy.png" alt="">23</div>
-              <div class="cabh_mon"><img src="./../img/medal.png" alt="">3</div>
+          </div>
+          <div class="cab_home_title " style="background-color:#6bcb77">
+            <div class="cab_home_title_text">
+              <p>Начальный уровень</p>
+              <span>Урок2: Мені ешкім іздеген жоқ па? / Меня никто не спрашивал?</span>
             </div>
-            <div class="cab_rating_item cab_rating_item--you">
-              <img class="cab_rating_img" src="./../img/user.svg" alt="">
-              <span class="cab_rating_name">Username22</span>
-              <span class="cab_rating_you">это вы</span>
-              <span class="cab_rating_place">10</span>
-              <div class="cabh_mon"><img src="./../img/trophy.png" alt="">23</div>
-              <div class="cabh_mon"><img src="./../img/medal.png" alt="">3</div>
+            <a href="https://soyle.pro/ru/lesson/1/theory" class="cab_home_title_cat">
+              <img src="./../img/main/theory_icon.png" alt="theory">
+              теория
+            </a>
+          </div>
+
+          <style>
+            .cab_home_steps_2:before {
+              background-image: url(./../img/main/lesson_2-img.png);
+              width: 330px;
+              height: 426px;
+              background-size: contain;
+              top: 65px;
+              left: 110%;
+            }
+          </style>
+          <div class="cab_home_steps cab_home_steps_2">
+            <div class="cab_home_step chs_1 chs_next chs_txt" step-id="14">
+              <a href="https://soyle.pro/ru/lesson/test/14"></a>
+              <div>
+                <p>Перейти сюда?</span>
+              </div>
+            </div>
+            <div class="cab_home_step chs_2" step-id="15">
+              <a href="https://soyle.pro/ru/lesson/test/15"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
+            </div>
+            <div class="cab_home_step chs_3" step-id="16">
+              <a href="https://soyle.pro/ru/lesson/test/16"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
+            </div>
+            <div class="cab_home_step chs_4" step-id="17">
+              <a href="https://soyle.pro/ru/lesson/test/17"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
+            </div>
+            <div class="cab_home_step chs_5" step-id="18">
+              <a href="https://soyle.pro/ru/lesson/test/18"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
+            </div>
+            <div class="cab_home_step chs_6" step-id="19">
+              <a href="https://soyle.pro/ru/lesson/test/19"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
+            </div>
+            <div class="cab_home_step chs_7" step-id="20">
+              <a href="https://soyle.pro/ru/lesson/test/20"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
+            </div>
+          </div>
+          <div class="cab_home_title " style="background-color:#ccc">
+            <div class="cab_home_title_text">
+              <p>Начальный уровень</p>
+              <span>Готов на 75%</span>
+            </div>
+            <a href="https://soyle.pro/ru/lesson/21/theory" class="cab_home_title_cat cab_home_title_cat--dev">
+              <img src="./../img/main/dev_icon.png" alt="dev">
+              В разработке
+            </a>
+          </div>
+
+          <style>
+            .cab_home_steps_3:before {
+              background-image: url(./../img/main/lesson_3-img.png);
+              width: 400px;
+              height: 300px;
+              background-size: contain;
+              top: 100px;
+              left: 100%;
+            }
+          </style>
+          <div class="cab_home_steps cab_home_steps--dev cab_home_steps_3">
+            <div class="cab_home_step chs_1" step-id="24">
+              <a href="https://soyle.pro/ru/lesson/test/24"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
+            </div>
+            <div class="cab_home_step chs_2" step-id="25">
+              <a href="https://soyle.pro/ru/lesson/test/25"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
+            </div>
+            <div class="cab_home_step chs_3" step-id="26">
+              <a href="https://soyle.pro/ru/lesson/test/26"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
+            </div>
+            <div class="cab_home_step chs_4" step-id="27">
+              <a href="https://soyle.pro/ru/lesson/test/27"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
+            </div>
+            <div class="cab_home_step chs_5" step-id="28">
+              <a href="https://soyle.pro/ru/lesson/test/28"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
+            </div>
+            <div class="cab_home_step chs_6" step-id="29">
+              <a href="https://soyle.pro/ru/lesson/test/29"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
+            </div>
+            <div class="cab_home_step chs_7" step-id="30">
+              <a href="https://soyle.pro/ru/lesson/test/30"></a>
+              <div>
+                <p>Перейти сюда?</p>
+              </div>
             </div>
           </div>
 
+          <div class="to_top">
+            <a href="https://soyle.pro/ru#" style="opacity: 1;">
+              <svg width="26" height="29" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M13.001 1.67004C14.3817 1.67004 15.501 2.78933 15.501 4.17004V26.2451C15.501 27.6258 14.3817 28.7451 13.001 28.7451C11.6203 28.7451 10.501 27.6258 10.501 26.2451V4.17004C10.501 2.78933 11.6203 1.67004 13.001 1.67004Z"
+                  fill="#15387A"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M11.2322 1.23223C12.2085 0.255922 13.7915 0.255922 14.7678 1.23223L24.7678 11.2322C25.7441 12.2085 25.7441 13.7915 24.7678 14.7678C23.7915 15.7441 22.2085 15.7441 21.2322 14.7678L13 6.53553L4.76777 14.7678C3.79146 15.7441 2.20854 15.7441 1.23223 14.7678C0.255922 13.7915 0.255922 12.2085 1.23223 11.2322L11.2322 1.23223Z"
+                  fill="#15387A"></path>
+              </svg>
+            </a>
+          </div>
         </div>
         <div class="cabinet_side">
           <div class="cabinet_side_inner">
@@ -156,76 +291,93 @@
                 <div><img src="./../img/side_goal.svg" alt=""></div>
                 <p>Цель дня: <span>10/10 очков</span></p>
               </div>
-              <div class="side_graph">
-                <svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%"
-                  class="ct-chart-line" style="width: 100%; height: 100%;">
+              <div class="side_graph"><svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%"
+                  height="100%" class="ct-chart-line" style="width: 100%; height: 100%;">
                   <g class="ct-grids">
-                    <line x1="50" x2="50" y1="15" y2="16" class="ct-grid ct-horizontal"></line>
-                    <line x1="50.142857142857146" x2="50.142857142857146" y1="15" y2="16" class="ct-grid ct-horizontal">
+                    <line x1="50" x2="50" y1="15" y2="115" class="ct-grid ct-horizontal"></line>
+                    <line x1="89.46428571428572" x2="89.46428571428572" y1="15" y2="115" class="ct-grid ct-horizontal">
                     </line>
-                    <line x1="50.285714285714285" x2="50.285714285714285" y1="15" y2="16" class="ct-grid ct-horizontal">
+                    <line x1="128.92857142857144" x2="128.92857142857144" y1="15" y2="115"
+                      class="ct-grid ct-horizontal"></line>
+                    <line x1="168.39285714285714" x2="168.39285714285714" y1="15" y2="115"
+                      class="ct-grid ct-horizontal"></line>
+                    <line x1="207.85714285714286" x2="207.85714285714286" y1="15" y2="115"
+                      class="ct-grid ct-horizontal"></line>
+                    <line x1="247.32142857142858" x2="247.32142857142858" y1="15" y2="115"
+                      class="ct-grid ct-horizontal"></line>
+                    <line x1="286.7857142857143" x2="286.7857142857143" y1="15" y2="115" class="ct-grid ct-horizontal">
                     </line>
-                    <line x1="50.42857142857143" x2="50.42857142857143" y1="15" y2="16" class="ct-grid ct-horizontal">
-                    </line>
-                    <line x1="50.57142857142857" x2="50.57142857142857" y1="15" y2="16" class="ct-grid ct-horizontal">
-                    </line>
-                    <line x1="50.714285714285715" x2="50.714285714285715" y1="15" y2="16" class="ct-grid ct-horizontal">
-                    </line>
-                    <line x1="50.857142857142854" x2="50.857142857142854" y1="15" y2="16" class="ct-grid ct-horizontal">
-                    </line>
-                    <line y1="16" y2="16" x1="50" x2="51" class="ct-grid ct-vertical"></line>
+                    <line y1="115" y2="115" x1="50" x2="326.25" class="ct-grid ct-vertical"></line>
+                    <line y1="95" y2="95" x1="50" x2="326.25" class="ct-grid ct-vertical"></line>
+                    <line y1="75" y2="75" x1="50" x2="326.25" class="ct-grid ct-vertical"></line>
+                    <line y1="55" y2="55" x1="50" x2="326.25" class="ct-grid ct-vertical"></line>
+                    <line y1="35" y2="35" x1="50" x2="326.25" class="ct-grid ct-vertical"></line>
+                    <line y1="15" y2="15" x1="50" x2="326.25" class="ct-grid ct-vertical"></line>
                   </g>
                   <g>
                     <g class="ct-series ct-series-a">
                       <path
-                        d="M50,16L50,16C50.048,15.933,50.095,15.844,50.143,15.8C50.19,15.756,50.238,15.7,50.286,15.7C50.333,15.7,50.381,15.767,50.429,15.8L50.429,16Z"
+                        d="M50,115L50,115C63.155,108.333,76.31,99.444,89.464,95C102.619,90.556,115.774,85,128.929,85C142.083,85,155.238,91.667,168.393,95L168.393,115Z"
                         class="ct-area"></path>
                       <path
-                        d="M50,16C50.048,15.933,50.095,15.844,50.143,15.8C50.19,15.756,50.238,15.7,50.286,15.7C50.333,15.7,50.381,15.767,50.429,15.8"
+                        d="M50,115C63.155,108.333,76.31,99.444,89.464,95C102.619,90.556,115.774,85,128.929,85C142.083,85,155.238,91.667,168.393,95"
                         class="ct-line"></path>
-                      <line x1="50" y1="16" x2="50.01" y2="16" class="ct-point" ct:value="0"></line>
-                      <text x="50" y="6" style="text-anchor: middle" class="ct-label">0</text>
-                      <line x1="50.142857142857146" y1="15.8" x2="50.152857142857144" y2="15.8" class="ct-point"
-                        ct:value="10"></line><text x="50.142857142857146" y="5.800000000000001"
-                        style="text-anchor: middle" class="ct-label">+10</text>
-                      <line x1="50.285714285714285" y1="15.7" x2="50.29571428571428" y2="15.7" class="ct-point"
-                        ct:value="15"></line><text x="50.285714285714285" y="5.699999999999999"
-                        style="text-anchor: middle" class="ct-label">+15</text>
-                      <line x1="50.42857142857143" y1="15.8" x2="50.43857142857143" y2="15.8" class="ct-point"
-                        ct:value="10"></line>
-                      <text x="50.42857142857143" y="5.800000000000001" style="text-anchor: middle" class="ct-label active">+10</text>
+                      <line x1="50" y1="115" x2="50.01" y2="115" class="ct-point" ct:value="0"></line><text x="50"
+                        y="105" style="text-anchor: middle" class="ct-label">0</text>
+                      <line x1="89.46428571428572" y1="95" x2="89.47428571428573" y2="95" class="ct-point"
+                        ct:value="10"></line><text x="89.46428571428572" y="85" style="text-anchor: middle"
+                        class="ct-label">+10</text>
+                      <line x1="128.92857142857144" y1="85" x2="128.93857142857144" y2="85" class="ct-point"
+                        ct:value="15"></line><text x="128.92857142857144" y="75" style="text-anchor: middle"
+                        class="ct-label">+15</text>
+                      <line x1="168.39285714285714" y1="95" x2="168.40285714285713" y2="95" class="ct-point"
+                        ct:value="10"></line><text x="168.39285714285714" y="85" style="text-anchor: middle"
+                        class="ct-label">+10</text>
                     </g>
                   </g>
                   <g class="ct-labels">
-                    <foreignobject style="overflow: visible;" x="50" y="21" width="0.14285714285714285" height="20">
+                    <foreignobject style="overflow: visible;" x="50" y="120" width="39.464285714285715" height="20">
                       <span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
-                        style="width: 0px; height: 20px;">Пн</span>
+                        style="width: 39px; height: 20px;">Пн</span>
                     </foreignobject>
-                    <foreignobject style="overflow: visible;" x="50.142857142857146" y="21" width="0.14285714285714285"
+                    <foreignobject style="overflow: visible;" x="89.46428571428572" y="120" width="39.464285714285715"
                       height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
-                        style="width: 0px; height: 20px;">Вт</span></foreignobject>
-                    <foreignobject style="overflow: visible;" x="50.285714285714285" y="21" width="0.14285714285714285"
+                        style="width: 39px; height: 20px;">Вт</span></foreignobject>
+                    <foreignobject style="overflow: visible;" x="128.92857142857144" y="120" width="39.46428571428571"
                       height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
-                        style="width: 0px; height: 20px;">Ср</span></foreignobject>
-                    <foreignobject style="overflow: visible;" x="50.42857142857143" y="21" width="0.14285714285714285"
+                        style="width: 39px; height: 20px;">Ср</span></foreignobject>
+                    <foreignobject style="overflow: visible;" x="168.39285714285714" y="120" width="39.46428571428572"
                       height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
-                        style="width: 0px; height: 20px;">Чт</span></foreignobject>
-                    <foreignobject style="overflow: visible;" x="50.57142857142857" y="21" width="0.1428571428571428"
+                        style="width: 39px; height: 20px;">Чт</span></foreignobject>
+                    <foreignobject style="overflow: visible;" x="207.85714285714286" y="120" width="39.46428571428572"
                       height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
-                        style="width: 0px; height: 20px;">Пт</span></foreignobject>
-                    <foreignobject style="overflow: visible;" x="50.714285714285715" y="21" width="0.1428571428571429"
+                        style="width: 39px; height: 20px;">Пт</span></foreignobject>
+                    <foreignobject style="overflow: visible;" x="247.32142857142858" y="120" width="39.464285714285694"
                       height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
-                        style="width: 0px; height: 20px;">Сб</span></foreignobject>
-                    <foreignobject style="overflow: visible;" x="50.857142857142854" y="21" width="30" height="20"><span
-                        class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
-                        style="width: 30px; height: 20px;">Вс</span></foreignobject>
-                    <foreignobject style="overflow: visible;" y="-14" x="10" height="30" width="30">
-                      <span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
-                        style="height: 30px; width: 30px;">0</span>
-                    </foreignobject>
+                        style="width: 39px; height: 20px;">Сб</span></foreignobject>
+                    <foreignobject style="overflow: visible;" x="286.7857142857143" y="120" width="39.46428571428572"
+                      height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                        style="width: 39px; height: 20px;">Вс</span></foreignobject>
+                    <foreignobject style="overflow: visible;" y="95" x="10" height="20" width="30"><span
+                        class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                        style="height: 20px; width: 30px;">0</span></foreignobject>
+                    <foreignobject style="overflow: visible;" y="75" x="10" height="20" width="30"><span
+                        class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                        style="height: 20px; width: 30px;">10</span></foreignobject>
+                    <foreignobject style="overflow: visible;" y="55" x="10" height="20" width="30"><span
+                        class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                        style="height: 20px; width: 30px;">20</span></foreignobject>
+                    <foreignobject style="overflow: visible;" y="35" x="10" height="20" width="30"><span
+                        class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                        style="height: 20px; width: 30px;">30</span></foreignobject>
+                    <foreignobject style="overflow: visible;" y="15" x="10" height="20" width="30"><span
+                        class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                        style="height: 20px; width: 30px;">40</span></foreignobject>
+                    <foreignobject style="overflow: visible;" y="-15" x="10" height="30" width="30"><span
+                        class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                        style="height: 30px; width: 30px;">50</span></foreignobject>
                   </g>
-                </svg>
-              </div>
+                </svg></div>
             </div>
           </div>
         </div>
@@ -297,9 +449,9 @@
     <div class="modal_in">
       <div class="modal_title">
         <span>Создать аккаунт</span>
-        <a href="https://soyle.pro/ru/user/profile#" class="modal_login">Войти</a>
+        <a href="https://soyle.pro/ru#" class="modal_login">Войти</a>
       </div>
-      <input type="hidden" name="_token" value="I8xYIgSM9gpd0YPkpT7vamMO6RltMKPNzRc96VaP">
+      <input type="hidden" name="_token" value="T9DK0j8QhRVeBEhKG0jwyac1FxrItaNXrHTbpTzL">
       <div class="modal_field">
         <label>Возраст</label>
         <input type="text" name="age">
@@ -335,9 +487,9 @@
     <div class="modal_in">
       <div class="modal_title">
         <span>Войти</span>
-        <a href="https://soyle.pro/ru/user/profile#" class="modal_registr">создать аккаунт</a>
+        <a href="https://soyle.pro/ru#" class="modal_registr">создать аккаунт</a>
       </div>
-      <input type="hidden" name="_token" value="I8xYIgSM9gpd0YPkpT7vamMO6RltMKPNzRc96VaP"> <label>Email
+      <input type="hidden" name="_token" value="T9DK0j8QhRVeBEhKG0jwyac1FxrItaNXrHTbpTzL"> <label>Email
         пользователя</label>
       <input type="text" name="email">
       <div class="form-error email-error" style="display: none"></div>
@@ -346,7 +498,7 @@
       <div class="form-error password-error" style="display: none"></div>
       <input type="submit" value="Вход">
       <div class="modal_forgot">
-        <a href="https://soyle.pro/ru/user/profile#">Забыли пароль?</a>
+        <a href="https://soyle.pro/ru#">Забыли пароль?</a>
       </div>
       <div class="modal_soc">
         <a href="https://soyle.pro/ru/user/auth/fb" class="modal_facebook"><img src="./../img/modal/modal_facebook.svg"
@@ -361,9 +513,9 @@
     <div class="modal_in">
       <div class="modal_title">
         <span>Забыли пароль?</span>
-        <a href="https://soyle.pro/ru/user/profile#" class="modal_login">Отмена</a>
+        <a href="https://soyle.pro/ru#" class="modal_login">Отмена</a>
       </div>
-      <input type="hidden" name="_token" value="I8xYIgSM9gpd0YPkpT7vamMO6RltMKPNzRc96VaP"> <label>Email
+      <input type="hidden" name="_token" value="T9DK0j8QhRVeBEhKG0jwyac1FxrItaNXrHTbpTzL"> <label>Email
         пользователя</label>
       <input type="text" name="email">
       <div class="form-error email-error" style="display: none"></div>
@@ -376,7 +528,7 @@
       <div class="modal_title passinput_title">
         <span>Введите новый пароль</span>
       </div>
-      <input type="hidden" name="_token" value="I8xYIgSM9gpd0YPkpT7vamMO6RltMKPNzRc96VaP"> <input type="hidden"
+      <input type="hidden" name="_token" value="T9DK0j8QhRVeBEhKG0jwyac1FxrItaNXrHTbpTzL"> <input type="hidden"
         name="id">
       <input type="hidden" name="token">
       <label>Пароль</label>
@@ -419,26 +571,23 @@
       <a class="popup_buttons_delete" href="javascript:void(0);">Удалить</a>
     </div>
   </div>
-  <script src="../js/jquery.min.js"></script>
-  <script src="../js/select2.min.js"></script>
-  <script src="../js/jquery.cookie.js"></script>
-  <script src="../js/chartist.min.js"></script>
-  <script src="../js/chartist-plugin-pointlabels.min.js"></script>
-  <script src="../js/script.js"></script>
-  <script src="../js/script_new.js"></script>
-  <script src="../js/main.js"></script>
+  <script src="./../js/jquery.min.js"></script>
+  <script src="./../js/select2.min.js"></script>
+  <script src="./../js/jquery.cookie.js"></script>
+  <script src="./../js/chartist.min.js"></script>
+  <script src="./../js/chartist-plugin-pointlabels.min.js"></script>
+  <script src="./../js/script.js"></script>
+  <script src="./../js/script_new.js"></script>
+  <script src="./../js/main.js"></script>
 
-
-  <deepl-input-controller>
-    <template shadowrootmode="open">
+  <deepl-input-controller><template shadowrootmode="open">
       <link rel="stylesheet" href="chrome-extension://cofdbpoegempjloogbagkncekinflcnj/build/content.css">
       <div dir="ltr">
         <div class="dl-input-translation-container svelte-95aucy">
           <div></div>
         </div>
       </div>
-    </template>
-  </deepl-input-controller>
+    </template></deepl-input-controller>
 </body>
 
 </html>
