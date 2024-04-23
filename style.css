@@ -753,6 +753,7 @@ header .container {
   padding: 0px 56px;
   width: auto;
   height: 385px;
+  object-fit: cover;
 }
 
 .advantages_bottom {
@@ -1198,7 +1199,7 @@ footer:has(.footer_title) {
 }
 
 .page_top_title {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 32px;
   color: var(--black);
   line-height: initial;
@@ -1226,7 +1227,7 @@ footer:has(.footer_title) {
 .page_cont {}
 
 .page_title {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 32px;
   color: var(--accent);
   line-height: initial;
@@ -1550,7 +1551,7 @@ footer:has(.footer_title) {
 /* ------ ------ cabinet ------ ------ */
 
 .cabinet_title {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 32px;
   color: var(--black);
   line-height: initial;
@@ -1564,7 +1565,7 @@ footer:has(.footer_title) {
 .cabinet_side {
   min-width: 360px;
   max-width: 360px;
-  margin-left: 20px;
+  margin-left: 60px;
   order: 1;
 }
 
@@ -2209,7 +2210,7 @@ footer:has(.footer_title) {
 
   display: flex;
   align-items: center;
-
+  background: #fff;
   border-radius: 16px;
   border: 2px solid #e4e8ef;
 }
@@ -3056,6 +3057,7 @@ footer:has(.footer_title) {
 
 .cab_theory-lvls_btn div {
   width: 68px;
+  min-width: 55px;
   height: 55px;
   border-radius: 16px;
   border: 2px solid #fff;
@@ -3110,6 +3112,7 @@ footer:has(.footer_title) {
 
 .why {
   padding: 74px 0;
+  border-top: 1px solid #9F248F;
 }
 
 .why_title {
@@ -3238,13 +3241,14 @@ footer:has(.footer_title) {
 
 .word_hint_text {
   padding: 16px;
-  background: #E4E8EF;
+  background: #94268F;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 16px;
   position: absolute;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  color: #fff;
   left: 0;
   top: 50px;
   display: none;
@@ -3435,6 +3439,16 @@ footer:has(.footer_title) {
     flex-direction: column;
   }
 
+  .hero_left {
+    width: 100%;
+  }
+
+  .hero_left img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
   .hero_title {
     text-align: center;
   }
@@ -3475,6 +3489,7 @@ footer:has(.footer_title) {
   .cabinet_row {
     flex-direction: column;
     align-items: center;
+
   }
 
   .cabinet_side {
@@ -3579,6 +3594,7 @@ footer:has(.footer_title) {
   .level_box {
     flex-direction: column;
     align-items: center;
+    gap: 30px;
   }
 
   .level_title {
@@ -4042,9 +4058,9 @@ footer:has(.footer_title) {
     display: block;
   }
 
-  .h_logo-activ,
-  .h_logo-kcell {
-    display: none;
+  .h_logo-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .modal_close {
@@ -4073,6 +4089,91 @@ footer:has(.footer_title) {
   .tabs_link {
     padding: 10px 15px;
     width: 100%;
+  }
+
+  .hero {
+    padding: 80px 0 100px;
+  }
+
+  .hero_title {
+    font-size: 32px;
+  }
+
+  .offer {
+    padding: 0 0 100px;
+  }
+
+  .offer_inner {
+    flex-direction: column;
+  }
+
+  .offer_right {
+    text-align: center;
+  }
+
+  .advantages {
+    padding: 0 0 100px;
+  }
+
+  .advantages_item-info {
+    align-items: center;
+    text-align: center;
+  }
+
+  .advantages_img {
+    width: 100%;
+    height: auto;
+  }
+
+  .level_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .level_img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .cab_theory_item-box {
+    flex-direction: column;
+  }
+
+  .cab_theory_item-wrapper {
+    gap: 30px;
+  }
+
+  .cab_theory-lvls_btn {
+    padding: 20px;
+    gap: 10px;
+    font-size: 24px;
+  }
+
+
+  .cab_rating_item {
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .cab_rating_name {
+    font-size: 18px;
+  }
+
+  .cab_rating_img,
+  .cab_rating_place,
+  .cab_rating_item .cabh_mon {
+    margin: 0;
+  }
+
+  .cab_rating_item--you .cab_rating_you {
+    order: 1;
+  }
+
+  .cab_rating_item:has(.cab_rating_you) .cab_rating_name {
+    margin-right: auto;
   }
 }
 
@@ -4263,7 +4364,11 @@ footer:has(.footer_title) {
   font-size: 16px;
 }
 
-.ptest_bottom_center {}
+.ptest_bottom_center {
+  display: flex;
+  align-items: center;
+  gap: 10px 35px;
+}
 
 
 .theory_link {
@@ -4281,6 +4386,30 @@ footer:has(.footer_title) {
   background-repeat: no-repeat;
   background-position: 19px 16px;
   display: block !important;
+  min-width: 136px;
+  width: fit-content;
+}
+
+.key-words_link {
+  padding: 14px 9px 14px 41px;
+  border: 2px solid #1A1919;
+  border-radius: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: pre-line;
+  color: #1A1919 !important;
+  background-image: url(img/new/key-words.svg);
+  background-repeat: no-repeat;
+  background-position: 9px 11px;
+  display: flex !important;
+  align-items: center;
+  min-width: 136px;
+  width: fit-content;
+  height: 52px;
 }
 
 .ptest_bottom_center a {
@@ -4439,11 +4568,11 @@ footer:has(.footer_title) {
 }
 
 .ptest_drag_word_title {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: initial;
   text-align: center;
-  color: #FF9D17;
+  color: #9f248f;
   margin: 0 0 40px;
 }
 
@@ -4481,9 +4610,12 @@ footer:has(.footer_title) {
   text-align: center;
   margin-bottom: 0;
   top: 74px;
-  left: 106px;
-  line-height: 1.5;
+  left: 40px;
+  line-height: 1.2;
   display: none;
+  flex-direction: column;
+  gap: 15px;
+  white-space: nowrap;
 }
 
 .pdwti_bg_hint.enter+.pdwti_bg_text {
@@ -4906,6 +5038,7 @@ footer:has(.footer_title) {
   text-transform: uppercase;
   color: #636463;
   margin: 29px auto 0 9px;
+  cursor: pointer;
 }
 
 .ptest_step_bank img {
@@ -5212,6 +5345,7 @@ footer:has(.footer_title) {
 
   .ptest_bottom {
     margin: 0 0 20px;
+    padding: 46px 15px 0;
   }
 
   .ptest_bottom .ptest_in {
@@ -5238,6 +5372,8 @@ footer:has(.footer_title) {
   .ptest_bottom_center {
     order: 1;
     margin: 20px 0 0;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .ptest_step_2 .ptest_row {
@@ -5390,6 +5526,33 @@ footer:has(.footer_title) {
     text-align: center;
     margin-bottom: 10px
   }
+
+  .ptest_step_2 .ptest_row_item {
+    padding: 20px;
+  }
+
+  .ptest_step_var5 a {
+    font-size: 24px;
+  }
+
+  .ptest_title {
+    font-size: 28px;
+  }
+
+  .ptest_drag_word_title {
+    font-size: 24px;
+  }
+
+  .ptest_drag_word_item .pdwi_s {
+    padding: 10px;
+  }
+
+  .ptest_row_item_text {
+    font-size: 18px;
+  }
+
+
+
 }
 
 @media(max-width:392px) {
