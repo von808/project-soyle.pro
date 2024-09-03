@@ -33,6 +33,10 @@
       <div class="cab_header">
         <div class="container">
           <div class="cabh_right">
+            <div class="cabh_achievements">
+              <img src="../img/icon-achievements.svg" alt="">
+              <span>3 из 6</span>
+            </div>
             <div class="cabh_mon"><img src="./../img/trophy.png" alt="">23</div>
             <div class="cabh_prof">
               <img src="./../img/user.svg" alt="">
@@ -65,6 +69,10 @@
           <img src="../img/tabs/icon-rating.svg" alt="rating">
           <span>рейтинг</span>
         </a>
+        <a href="#!" class="tabs_link">
+          <img src="../img/tabs/icon-save.svg" alt="save">
+          <span>сохранное</span>
+        </a>
       </div>
     </div>
   </div>
@@ -76,7 +84,14 @@
           <div class="cab_theory-lvls_items">
             <div class="cab_theory-lvls_item">
               <a class="cab_theory-lvls_btn cab_theory-lvls_btn--1" href="#!">
-                <span>Начальный уровень</span>
+                <span>Начальный уровень
+                  <form class="cabinet__form" action="">
+                    <input class="cabinet__form-input" type="text">
+                    <button class="cabinet__form-btn">
+                      <img class="cabinet__form-img" src="../img/icon-loop.svg" alt="">
+                    </button>
+                  </form>
+                </span>
                 <div>
                   <svg width="31" height="18" viewBox="0 0 31 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -88,6 +103,17 @@
               <div class="cab_theory-lvls_item_lessons">
                 <div class="cab_theory-lvls_item_lisson">
                   Урок 1: Сұрауға бола ма? / Можно спросить?
+                  <button class="save-btn">
+                    <img class="save-btn--disabled" src="../../../img/tabs/icon-save-hollow.svg" alt="">
+                    <img class="save-btn--enabled" src="../../../img/tabs/icon-save.svg" alt="">
+                  </button>
+                </div>
+                <div class="cab_theory-lvls_item_lisson">
+                  Урок 1: Сұрауға бола ма? / Можно спросить?
+                  <button class="save-btn">
+                    <img class="save-btn--disabled" src="../../../img/tabs/icon-save-hollow.svg" alt="">
+                    <img class="save-btn--enabled" src="../../../img/tabs/icon-save.svg" alt="">
+                  </button>
                 </div>
                 <div class="cab_theory-lvls_item_lisson">
                   Урок 1: Сұрауға бола ма? / Можно спросить?
@@ -137,8 +163,8 @@
                 <div class="cab_theory-lvls_item_lisson">
                   Урок 1: Сұрауға бола ма? / Можно спросить?
                 </div>
-                <div class="cab_theory-lvls_item_lisson">
-                  Урок 1: Сұрауға бола ма? / Можно спросить?
+                <div class="cab_theory-lvls_item_lisson cab_theory-lvls_item_final">
+                  Финальный тест уровня
                 </div>
               </div>
             </div>
@@ -252,6 +278,13 @@
                         style="height: 30px; width: 30px;">50</span></foreignobject>
                   </g>
                 </svg></div>
+            </div>
+            <div class="side_achievements">
+              <div class="side_achievements-title">Достижения</div>
+              <div class="side_achievements-track">
+                <img src="../img/icon-achievements.svg" alt="">
+                <span>3 из 6</span>
+              </div>
             </div>
           </div>
         </div>

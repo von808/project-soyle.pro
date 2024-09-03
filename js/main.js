@@ -1,4 +1,16 @@
 jQuery(document).ready(function () {
+  const save = document.querySelector('.save-btn');
+  if (save) {
+    var saveBtn = document.querySelectorAll('.save-btn'),
+      saveBtnActive = document.getElementsByClassName('save-btn--active');
+
+    Array.from(saveBtn).forEach(function (item, i, saveBtn) {
+      item.addEventListener('click', function (e) {
+        this.classList.toggle('save-btn--active');
+      });
+    });
+  }
+
   $('.h_lang select').change(function () {
     let option = $('.h_lang select option:selected');
     document.location.href = option.attr('url');
@@ -259,6 +271,5 @@ jQuery(document).ready(function () {
       $('html, body').scrollTop(e.offset().top - 300)
     }
   }
-
 
 })

@@ -1352,6 +1352,26 @@ footer:has(.footer_title) {
   height: 24px;
 }
 
+.cabh_achievements {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+  color: #1A1919;
+}
+
+.cabh_achievements span {
+  white-space: nowrap;
+}
+
+.cabh_achievements img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
 .cabh_mon {
   display: flex;
   align-items: center;
@@ -1433,6 +1453,10 @@ footer:has(.footer_title) {
   padding: 40px 0;
 }
 
+.tabs .container {
+  max-width: 1200px;
+}
+
 .tabs_items {
   display: flex;
   justify-content: flex-start;
@@ -1443,7 +1467,7 @@ footer:has(.footer_title) {
 .tabs_link {
   min-width: 170px;
   height: 52px;
-  padding: 11px 24px;
+  padding: 11px 10px;
 
   display: flex;
   justify-content: flex-start;
@@ -1577,17 +1601,50 @@ footer:has(.footer_title) {
   margin: 0 0 30px 0;
 }
 
-
 .cabinet_side .cabinet_side_inner {
   /* position: sticky; */
   top: 77px;
+}
+
+.cabinet__form {
+  display: flex;
+  max-width: 511px;
+  width: 100%;
+  position: relative;
+}
+
+.cabinet__form-input {
+  width: 100%;
+  border-radius: 13px;
+  border: 0;
+  background: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 4px 16px 5px;
+}
+
+.cabinet__form-btn {
+  display: flex;
+  position: absolute;
+  right: 16px;
+  top: 4px;
+  background: transparent;
+  border: 0;
+}
+
+.cabinet__form-img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 /* ------ ------ cabinet_side ------ ------ */
 
 .side_progress {
   padding: 25px 30px 75px;
-  margin: 0 0 20px;
+  margin: 0 0 11px;
   position: relative;
   background-color: #fff;
 
@@ -1861,6 +1918,31 @@ footer:has(.footer_title) {
 
 .side_prof_del:hover {}
 
+.side_achievements {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 42px 16px;
+  margin: 0 0 11px;
+  position: relative;
+  background-color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #4C515A;
+  border-radius: 16px;
+  border: 2px solid #e4e8ef;
+}
+
+.side_achievements-title {
+  padding-left: 6px;
+}
+
+.side_achievements-track {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
 
 /* ------ ------ cabinet_settings ------ ------ */
 
@@ -2296,6 +2378,138 @@ footer:has(.footer_title) {
   max-height: 35px;
 }
 
+/* ------ ------ cabinet_save ------ ------ */
+.cab_save-lvls_items {
+  padding-bottom: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cab_save-lvls_item {
+  color: var(--white);
+}
+
+.cab_save_title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #1A1919;
+}
+
+.cab_save-lvls_btn {
+  padding: 30px 50px 30px 60px;
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: inherit;
+}
+
+.cab_save-lvls_btn>span {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  max-width: calc(100% - 68px);
+  width: 100%;
+}
+
+.cab_save-lvls_btn:first-child>div {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  color: #1A1919;
+  width: 30%;
+}
+
+.cab_save-lvls_btn:first-child>div span {
+  padding-bottom: 3px;
+  white-space: nowrap;
+}
+
+.cab_save-lvls_btn:first-child img>div {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.cab_save-lvls_btn div:last-child {
+  width: 68px;
+  min-width: 55px;
+  height: 55px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+.cab_save-lvls_btn--1 {
+  background: #8e2b7d;
+}
+
+.cab_save-lvls_btn--2 {
+  background: #6bcb77;
+}
+
+.cab_save-lvls_btn--3 {
+  background: #ccc;
+}
+
+.cab_save-lvls_item_lessons {
+  margin-top: 22px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cab_save-lvls_item_lisson {
+  border-radius: 16px;
+  width: 100%;
+  min-height: 46px;
+  padding: 8px 38px 8px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  background: #f6f6f6;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--black);
+}
+
+.cab_save-lvls_item_lisson .save-btn {
+  width: 30px;
+  height: 30px;
+}
+
+.cab_save-lvls_item_lisson button {
+  border: 0;
+  background: transparent;
+}
+
+.cab_save-lvls_item_lisson span {
+  margin-right: auto;
+}
+
+.cab_save-lvls_item_lisson img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
 /* ------ ------ cabinet_shop ------ ------ */
 
 .cabinet_shop {}
@@ -2367,7 +2581,9 @@ footer:has(.footer_title) {
 
 /* ------ ------ cabinet_home ------ ------ */
 
-.cabinet_home {}
+.cabinet .container {
+  max-width: 1200px;
+}
 
 .cabinet_home .side_prof {
   display: none;
@@ -2403,11 +2619,11 @@ footer:has(.footer_title) {
 }
 
 .cab_home_title_cat {
-  min-width: 158px;
-  height: 52px;
+  /* min-width: 158px; */
+  /* height: 52px; */
   margin: 0 0 0 10px;
 
-  border: 2px solid #FFFFFF;
+  /* border: 2px solid #FFFFFF; */
   border-radius: 16px;
   display: flex;
   align-items: center;
@@ -2717,6 +2933,37 @@ footer:has(.footer_title) {
   width: 100%;
 }
 
+.save-btn {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border: 0;
+  background: transparent;
+}
+
+.save-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.save-btn--enabled {
+  display: none;
+}
+
+.save-btn .sabe-btn--disabled {
+  display: block;
+}
+
+.save-btn--active .save-btn--disabled {
+  display: none;
+}
+
+.save-btn--active .save-btn--enabled {
+  display: block;
+}
+
 .cab_theory_title_text p {
   margin-bottom: 8px;
 
@@ -2882,6 +3129,29 @@ footer:has(.footer_title) {
   height: 24px;
 }
 
+.cab_theory_item_btn {
+  max-width: 564px;
+  width: 100%;
+  background: #6BCB77;
+  border-radius: 16px;
+  padding: 14px 41px 16px 37px;
+}
+
+.cab_theory_item_btn-title {
+  margin-bottom: 3px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 120%;
+  color: #1A1919;
+}
+
+.cab_theory_item_btn-text {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFE;
+}
+
 .cab_theory_item-box {
   width: 100%;
   height: auto;
@@ -3041,13 +3311,28 @@ footer:has(.footer_title) {
   color: var(--white);
 }
 
+.cabinet_theory_lvl .cab_theory-lvls_btn>span {
+  max-width: calc(100% - 78px);
+  width: 100%;
+}
+
+.cabinet_theory .cab_theory-lvls_btn>span {
+  max-width: calc(100% - 78px);
+  width: 55%;
+}
+
+.cabinet_theory .cab_theory-lvls_btn div:last-child {
+  margin: 0 0 0 auto;
+}
+
 .cab_theory-lvls_btn {
   padding: 30px 50px 30px 60px;
   border-radius: 16px;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  gap: 10px;
 
   font-weight: 700;
   font-size: 32px;
@@ -3055,7 +3340,36 @@ footer:has(.footer_title) {
   color: inherit;
 }
 
-.cab_theory-lvls_btn div {
+.cab_theory-lvls_btn>span {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  max-width: calc(100% - 78px);
+  width: 100%;
+}
+
+.cab_theory-lvls_btn:first-child>div {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  color: #1A1919;
+  width: 30%;
+}
+
+.cab_theory-lvls_btn:first-child>div span {
+  padding-bottom: 3px;
+}
+
+.cab_theory-lvls_btn:first-child img>div {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.cab_theory-lvls_btn div:last-child {
   width: 68px;
   min-width: 55px;
   height: 55px;
@@ -3090,9 +3404,9 @@ footer:has(.footer_title) {
   border-radius: 16px;
   width: 100%;
   min-height: 46px;
-  padding: 10px 20px;
+  padding: 8px 38px 8px 20px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   background: #f6f6f6;
 
@@ -3100,6 +3414,23 @@ footer:has(.footer_title) {
   font-size: 16px;
   line-height: 150%;
   color: var(--black);
+}
+
+.cab_theory-lvls_item_lisson .save-btn {
+  width: 30px;
+  height: 30px;
+}
+
+.cab_theory-lvls_item_final {
+  width: 100%;
+  background-color: #6BCB77;
+  border-radius: 16px;
+  padding: 4px 22px 11px;
+
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 150%;
+  color: #1A1919;
 }
 
 /* ------ ------ cabinet_theory_lvl ------ ------ */
@@ -3632,9 +3963,18 @@ footer:has(.footer_title) {
 
   .cab_home_title,
   .cab_theory_title {
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     padding: 20px;
     align-items: baseline;
+  }
+
+  .cab_theory_title_text {
+    width: calc(100% - 60px);
+  }
+
+  .cab_theory_title .save-btn {
+    margin: auto 0;
   }
 
   .cab_home_title_cat {
@@ -4081,16 +4421,6 @@ footer:has(.footer_title) {
     padding: 15px 20px 16px 20px !important;
   }
 
-  .tabs_items {
-    gap: 10px;
-    flex-direction: column;
-  }
-
-  .tabs_link {
-    padding: 10px 15px;
-    width: 100%;
-  }
-
   .hero {
     padding: 80px 0 100px;
   }
@@ -4145,13 +4475,6 @@ footer:has(.footer_title) {
     gap: 30px;
   }
 
-  .cab_theory-lvls_btn {
-    padding: 20px;
-    gap: 10px;
-    font-size: 24px;
-  }
-
-
   .cab_rating_item {
     gap: 10px;
     flex-wrap: wrap;
@@ -4174,6 +4497,15 @@ footer:has(.footer_title) {
 
   .cab_rating_item:has(.cab_rating_you) .cab_rating_name {
     margin-right: auto;
+  }
+
+  .cab_save-lvls_item_lisson {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .cab_save-lvls_item_lisson span {
+    width: 100%;
   }
 }
 
@@ -4282,7 +4614,8 @@ footer:has(.footer_title) {
 }
 
 .ptest_skip,
-.ptest_obzor {
+.ptest_obzor,
+.ptest_again {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4299,8 +4632,14 @@ footer:has(.footer_title) {
   transition: opacity 0.5s ease;
 }
 
+.ptest_again {
+  background: #F6F6F6;
+  border: 1px solid #F6F6F6;
+}
+
 .ptest_skip:hover,
-.ptest_obzor:hover {
+.ptest_obzor:hover,
+.ptest_again:hover {
   opacity: 0.6;
 }
 
@@ -4429,7 +4768,8 @@ footer:has(.footer_title) {
 }
 
 .ptest_next,
-.ptest_check {
+.ptest_check,
+.ptest_theory {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4446,8 +4786,14 @@ footer:has(.footer_title) {
   transition: color 0.5s ease, background 0.5s ease;
 }
 
+.ptest_theory {
+  padding: 0 63px;
+  width: fit-content;
+}
+
 .ptest_next:hover,
-.ptest_check:hover {
+.ptest_check:hover,
+.ptest_theory:hover {
   color: #9F248F;
   background: #fff;
 }
@@ -5254,6 +5600,27 @@ footer:has(.footer_title) {
   font-weight: 500;
 }
 
+.ptest_last_result {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #96248D;
+  margin-bottom: 17px;
+}
+
+.ptest_last_desc {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #1A1919;
+}
+
+.ptest_last_desc span {
+  font-weight: 700;
+}
+
 .ptest_step_last {}
 
 
@@ -5480,6 +5847,18 @@ footer:has(.footer_title) {
   }
 }
 
+@media(max-width:768px) {
+  .tabs_items {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .tabs_link {
+    padding: 10px 15px;
+    width: 100%;
+  }
+}
+
 @media(max-width:628px) {
   .ptest_step_var2 a {
     margin-left: 0;
@@ -5551,8 +5930,36 @@ footer:has(.footer_title) {
     font-size: 18px;
   }
 
+  .cab_theory-lvls_item_final {
+    font-size: 18px;
+  }
 
+  .cab_theory-lvls_btn {
+    padding: 20px;
+    gap: 10px;
+    font-size: 24px;
+    flex-wrap: wrap;
+  }
 
+  .cab_theory-lvls_btn>span {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .cabinet__form {
+    max-width: 100%;
+  }
+
+  .cab_theory-lvls_btn:first-child>div {
+    font-size: 16px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .cabinet_theory_lvl .cab_theory-lvls_btn>span {
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 @media(max-width:392px) {
@@ -5565,5 +5972,17 @@ footer:has(.footer_title) {
   .ptest_step_var4 .ptest_list_item,
   .ptest_step_var5 .ptest_list_item {
     width: 100% !important;
+  }
+
+  .cabh_right {
+    flex-wrap: wrap;
+  }
+
+  .cabh_right>div {
+    width: calc(50% - 5px);
+  }
+
+  .cabh_right>div.cabh_prof {
+    margin: 0 0 0 auto;
   }
 }
